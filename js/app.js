@@ -30,7 +30,7 @@ formCreate.addEventListener("submit", (e) => {
 
   console.log(todoText);
   if (todoText.length) {
-    console.log(todoText);
+    todos.push({text:todoText, time:'05.10.2024', completed:false})
   } else {
     showMessage('message-create', 'plase enter some text ...')
   }
