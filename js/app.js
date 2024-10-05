@@ -28,5 +28,8 @@ console.log(todoText);
         
     }else{
         messageCreate.textContent = 'plase enter sume text...'
+        setTimeout(()=>{
+            messageCreate.textContent = ''
+        }, 2500)
     }
 })
