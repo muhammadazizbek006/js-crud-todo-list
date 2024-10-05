@@ -15,7 +15,7 @@ const closeEl = document.getElementById("close");
 let todos = JSON.parse(localStorage.getItem("list"))
   ? JSON.parse(localStorage.getItem("list"))
   : [];
-
+// show error
   function showMessage(where, message){
     document.getElementById(`${where}`).textContent = message
     setTimeout(()=>{
